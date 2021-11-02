@@ -10,20 +10,42 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="153dp"
         android:text="@string/titleTextString"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:id="@+id/restaurantButton"
+        android:layout_width="136dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/restaurantChangeButtonText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titleText" />
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="88dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/restaurantButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

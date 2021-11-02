@@ -9,4 +9,5 @@
 
     <string name="titleTextString">EAT FROM HERE</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="restaurantChangeButtonText">NO WAY</string>
 </resources>
